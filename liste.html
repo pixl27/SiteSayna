@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manga Mada</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Grocery Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" type="text/css" media="all" />
+<link href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css" type="text/css" media="all" />
+
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+
+
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- header -->
+<div class="agileits_header">
+	<div class="w3l_offers">
+		<a href="index.html">Manga Mada</a>
+	</div>
+	<div class="w3l_header_right1">
+		<h2><a href="">Bienvenue</a></h2>
+	</div>
+	<div class="clearfix"> </div>
+</div>
+<!-- script-for sticky-nav -->
+<script>
+$(document).ready(function() {
+	 var navoffeset=$(".agileits_header").offset().top;
+	 $(window).scroll(function(){
+		var scrollpos=$(window).scrollTop(); 
+		if(scrollpos >=navoffeset){
+			$(".agileits_header").addClass("fixed");
+		}else{
+			$(".agileits_header").removeClass("fixed");
+		}
+	 });
+	 
+});
+</script>
+<!-- //script-for sticky-nav -->
+<div class="logo_products">
+	<div class="container">
+		<div class="w3ls_logo_products_left">
+			<h1><a href="index.html"><span>Manga</span> Mada</a></h1>
+		</div>
+		<div class="w3ls_logo_products_left1">
+			<ul class="special_items">
+				<li><a href="index.html">Acceuil</a><i>/</i></li>
+				<li><a href="liste.html">Liste Manga</a><i>/</i></li>
+				<li><a href="about.html">A propos</a><i>/</i></li>
+				<li><a href="faqs.html">FAQ</a></li>
+			</ul>
+		</div>
+		<div class="w3ls_logo_products_left1">
+			<ul class="phone_email">
+				<li><i class="fa fa-phone" aria-hidden="true"></i>(+261) 34 17 369 94 </li>
+				<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:maheryrakotondrazaka@gmail.com">maheryrakotondrazaka@gmail.com</a></li>
+			</ul>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- //header -->
+<!-- banner -->
+		<div class="clearfix"></div>
+	</div>
+	<div class="top-brands">
+		<div class="newsletter">
+			<div class="container">
+					<h1 style="text-align: center;">Liste de Nos Mangas</h1>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="container">
+			<table id="example" class="table table-striped table-bordered" style="width:100%">
+				<thead>
+					<tr>
+						<th>Nom</th>
+						<th>Createur</th>
+						<th>Annee</th>
+						<th>Type</th>
+						<th>Voir</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>One Piece</td>
+						<td>Eichiro Oda</td>
+						<td>1998</td>
+						<td>Shonen</td>
+						<td><a href="one.html">voir</a></td>
+
+
+					</tr>
+					<tr>
+						<td>Attack on Titan</td>
+						<td>Hajime Isayama</td>
+						<td>2013</td>
+						<td>Shonen/Gore</td>
+						<td><a href="snk.html">voir</a></td>
+
+					</tr>
+					<tr>
+						<td>Jojo's Bizarre Adventure</td>
+						<td>Araki</td>
+						<td>1998</td>
+						<td>Shonen</td>
+						<td><a href="jojo.html">voir</a></td>
+
+					</tr>
+					<tr>
+						<td>Pokemon</td>
+						<td>Satoshi</td>
+						<td>1990</td>
+						<td>Shonen</td>
+						<td><a href="pokemon.html">voir</a></td>
+
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th>Nom</th>
+						<th>Createur</th>
+						<th>Annee</th>
+						<th>Type</th>
+						<th>Voir</th>
+
+					</tr>
+				</tfoot>
+			</table>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //top-brands -->
+
+<div class="newsletter">
+	<div class="container">
+		<div class="w3agile_newsletter_left">
+			<h3>Manga Mada , Site de réference de Manga à Mandagascar</h3>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- footer -->
+<div class="footer">
+
+		<div class="wthree_footer_copy">
+			<p>© 2020 Mahery Rakotondrazaka</p>
+		</div>
+	</div>
+</div>
+<!-- //footer -->
+<script src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+
+	<script>
+			$('#example').DataTable();
+
+	</script>
+</body>
+</html>
